@@ -1,0 +1,26 @@
+Report
+
+Approach
+
+I solved the problem using nested for loops. The outer loop controls the
+rows, while the inner loop controls the columns or the elements printed
+in each row.
+
+-   Square Pattern: Two nested loops print a fixed number of asterisks.
+-   Right-Angled Triangle: The outer loop controls the number of rows,
+    and the inner loop prints numbers from 1 up to the current row.
+-   Pyramid Pattern: Three nested loops are used—one for leading spaces
+    and one for the asterisks, with the outer loop controlling the
+    height.
+
+Challenges
+
+The main challenge was correctly aligning the pyramid. This was solved
+by printing the required number of leading spaces before printing the
+asterisks.
+
+Testing
+
+The program was tested with different input sizes such as 3, 5, and 7.
+All patterns were generated correctly, demonstrating that the program
+works for different valid input sizes.
